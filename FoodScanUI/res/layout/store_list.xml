@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radio_Group_store_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_Group_store_list_wholeFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:drawableLeft="@drawable/whole_foods"
+            android:text="Whole Foods" />
+        
+        <RadioButton
+            android:id="@+id/radio_Group_store_list_traderJoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/trader_joes_pic"
+            android:text="Trader Joe's" />
+       
+    </RadioGroup>
+
+</LinearLayout>

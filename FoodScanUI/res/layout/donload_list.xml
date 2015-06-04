@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <RadioGroup
+        android:id="@+id/radio_Group_downlaod_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_Group_downlaod_list_vegan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/five"
+            android:textSize="16sp"
+            android:text="Vegan" />
+
+        <RadioButton
+            android:id="@+id/radio_Group_downlaod_list_gmos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/four"
+            android:textSize="16sp"
+            android:text="Dairy free" />
+        
+        <RadioButton
+            android:id="@+id/radio_Group_downlaod_list_sugarFree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/six"
+            android:textSize="16sp"
+            android:text="Sugar Free" />
+        
+        <RadioButton
+            android:id="@+id/radio_Group_downlaod_list_guletinFree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/two"
+            android:textSize="16sp"
+            android:text="Gluten Free" />
+       
+    </RadioGroup>
+
+</LinearLayout>

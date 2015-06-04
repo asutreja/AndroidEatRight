@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/store"
+            android:text="Store"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/restaurant"
+            android:text="Restaurant" />
+       
+    </RadioGroup>
+
+</LinearLayout>

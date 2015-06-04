@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radio_Group_choose_shop_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/radio_Group_choose_shop_list_createList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Create List"
+            android:drawableLeft="@drawable/shopping_list" />
+
+        <RadioButton
+            android:id="@+id/radio_Group_choose_shop_list_downloadList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/download_list" 
+            android:text="Download List" />
+       
+    </RadioGroup>
+
+</LinearLayout>

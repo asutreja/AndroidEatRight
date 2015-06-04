@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eat Smart</string>
+    <string name="action_settings">FoodScanUI</string>
+    <string name="food_found"><i><b>FOOD FOUND:</b></i> Nabisco Nutter Butter, 32oz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="rest_text">Found <b>1</b> vegan restaurant in the area</string>
+    <string name="store_text">Found <b>1</b> vegan store in the area</string>
+    <string name="user_reviews"><b>User Reviews:\n</b><i>Mark has some of the best food in town! 
+        Get the mung bean pancake -Izzy\n\nFood is great! Can\'t wait to go back again -John\n</i></string>
+    <string name="trader_user_reviews"><b>User Reviews:\n</b><i>The gluten free vegan cookies are to die for! -Eddie\n\n
+		Every time I go I get the vegan mac and cheese! Try it, it\'s great! - guest \n\n Wish the store was bigger, items
+		are sometimes out of stock -Maggie</i></string>
+    <string name="menu_items"><b>Mung Bean Pancake</b> <i>3.95\n</i><b>Kimchi Fritter</b> <i>6.95\n</i><b>Bibimbap</b> <i>9.95\n</i><b>Six-level Pagoda</b> <i>12.95</i></string>
+    <string name="store_items"><b>Soy Delicious</b> <i>4.95\n</i><b>Tofurkey Italian Sausages</b> <i>6.95\n</i><b>Dr. Praeger’s California Veggie Burgers</b> <i>9.95\n</i><b>Meatless Meatballs</b> <i>10.55</i></string>
+    <string name="subquestion1"><b>What is the best chicken substitute out there?</b></string>
+	<string name="subanswer1a">Curd: Whole Foods General Tso\'s chicken is the best I\'ve tasted by far</string>
+	<string name="subanswer1b">Extra Firm Tofu from Trader Joes</string>
+	<string name="subquestion2"><b>Why does Aspartame have no taste when baked in a cake?</b></string>
+	<string name="subanswer2a">Doesn\'t hold up to high temperatures</string>
+	<string name="subanswer2b">Exactly. Use saccharin instead, 300 times sweeter than sugar</string>
+	
+    <string name="recquestion1"><b>Best Vegan cake recipes?</b></string>
+    <string name="recanswer1a">Red velvet: I uploaded http://http://www.egglesscooking.com/2012/01/18/vegan-red-velvet-cupcakes-recipe/</string> 
+    <string name="recanswer1b">Chocolate Cake OMG http://www.instructables.com/id/The-BEST-chococlate-cake-ever...that-happens-to-be/</string>
+    <string name="recquestion2"><b>I\'m getting bored with my tofu dishes. Any balling tofunking recipes out there? lol</b></string>
+    <string name="recanswer2a">Dude, take a look at these http://allrecipes.com/recipes/everyday-cooking/vegetarian/vegetarian-protein/tofu/</string>
+    <string name="recanswer2b">I can\'t get enough of this http://www.eatingwell.com/recipes_menus/recipe_slideshows/quick_tofu_dinner_recipes</string>
+    
+     <string name="findquestion1"><b>Where can I find Vegan Beer?</b></string>
+	<string name="findanswer1a">Anheuser-Busch carries a lot of vegan beers. Try your local grocery store or a nearby 7/11</string>
+	<string name="findanswer1b">Sierra Nevada also has many vegan beers. The Pale Ale, Stout, and Summerfest are my favorites. Use this site to find em http://www.sierranevada.com/beer-locator</string>
+	<string name="findquestion2"><b>Where do they sell gelatin substitutes? I miss my jello</b></string>
+	<string name="findanswer2a">You can pick up the vegan Knox at Whole Foods</string>
+	<string name="findanswer2b">I just use tapioca extract, works great and most stores carry! :)</string>
+</resources>
